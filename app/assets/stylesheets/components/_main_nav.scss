@@ -1,0 +1,48 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+.left-nav > ul,
+.right-nav > ul {
+
+  display: flex;
+  align-items:center;
+}
+
+.left-nav > ul > li {
+font-family: "Times New Roamn", sans-serif;
+font-size: 15px;
+text-transform: uppercase;
+padding: 5px;
+margin-left: 10px;
+}
+
+.right-nav > ul > li {
+  font-family: "Times New Roman", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.right-nav > ul > li:last-of-type {
+  font-size: 20px;
+  background-color: $light-gray;
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+background-color: $light-gray;
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+
+}
